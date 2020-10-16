@@ -1,0 +1,70 @@
+#page {
+    background: linear-gradient(#96bbbb, #136969);
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sect {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+
+#sect p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#sect p span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#sect ul li {
+    font-size: 19px;
+}
+
+#scroll-img {
+    cursor: pointer;
+}
+
+#lower-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+}
+
+#lower-content span {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#reccomended-videos-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+}
+
+#recomended-videos-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 20px;
+}
